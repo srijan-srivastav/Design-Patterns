@@ -1,8 +1,13 @@
 package DesignPatterns.StrategyPattern;
 
+import DesignPatterns.FactoryPattern.Exceptions.InvalidTerrainException;
 import DesignPatterns.StrategyPattern.Processors.Processors;
 import DesignPatterns.StrategyPattern.RAM.UserType;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Main {

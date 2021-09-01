@@ -8,7 +8,7 @@ import DesignPatterns.StrategyPattern.RAM.RAMSimpleFactory;
 import DesignPatterns.StrategyPattern.RAM.UserType;
 
 public class Laptop implements IComputer{
-    private Configuration laptopConfiguration;
+    private final Configuration laptopConfiguration;
     private IProcessor processor;
     private IRAMConfig ramConfig;
 
