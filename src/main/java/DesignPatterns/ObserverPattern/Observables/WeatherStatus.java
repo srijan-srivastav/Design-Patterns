@@ -61,7 +61,6 @@ public class WeatherStatus implements IObservable {
             System.out.println("Parsing failed");
         }
 
-
     }
 
     public void setTemperature(double temperature) {
